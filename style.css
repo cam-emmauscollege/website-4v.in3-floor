@@ -108,13 +108,9 @@ nav ul {
     margin: auto;
     padding: 0;
     overflow: hidden;
-    position: fixed;
     width: 100%;
     bottom: 90%;
-    margin-left: 0%;
-    top: 0%;
-
-    
+    margin-left: 350px;
 }
 
 nav ul li {
@@ -128,7 +124,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 125%;
     font-family:'Times New Roman', Times, serif
 }
 
@@ -151,15 +147,16 @@ nav li a.active {
 
 .geschiedenis-plaatje {
   float: left;
-  width: 250px;
+  width: 300px;
   padding-right:10px;
+  margin-left: 300px;
 
 }
 
 .home-plaatje {
   width: 250px;
   padding-left: 15px;
-  margin-left: 975px;
+  margin-left: 600px;
 }
 
 .bottom-plaatje {
@@ -169,7 +166,7 @@ nav li a.active {
 }
 
 .geschiedenis-tekst {
-  margin-left: 200px;
+  margin-left: 500px;
   width: 450px; 
   color: white;
   height: 1200px;
@@ -186,7 +183,7 @@ nav li a.active {
 
 
 #pagina3 { 
-  background-image: url("afbeeldingen/red-gradient.jpeg");
+  background-image: url("afbeeldingen/lalaland.jpeg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,21 +191,21 @@ nav li a.active {
 }
 
 .blurry-background {
-  background-color: rgba(255, 255, 255, 0.42);
+  background-color: rgba(255, 255, 255, 0.726);
   color: black;
   border: 1px solid white;
   border-radius: 7px;
   padding-right: 8px;
   padding-left: 8px;
   white-space: nowrap;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
   width: 600px;
   height: 275px;
-  margin-left: 800px;
+  margin-left: 450px;
 }
 
 #pagina4 {
-  background-image: url("afbeeldingen/interstellar.jpeg");
+  background-image: url("afbeeldingen/batman.jpeg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;

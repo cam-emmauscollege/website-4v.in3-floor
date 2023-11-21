@@ -241,6 +241,8 @@ nav li a.active {
   width: 275px;
   margin-left: 600px;
   border: 1px solid white;
+  float: left;
+  padding: 5px;
 }
 
 .home-bottomtekst {
@@ -252,14 +254,25 @@ nav li a.active {
 
 .plaatjehome3 {
   width: 275px;
-  margin-left: 1000px;
   border: 1px solid white;
+  margin-left: 200px;
+  float: left;
+  padding: 5px;
 }
 
 .plaatjehome4 {
   width: 260px;
-  margin-left: 500px;
+  margin-left: 60px;
   border: 1px solid white;
+  float: left;
+  padding: 5px;
 
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
 }
 

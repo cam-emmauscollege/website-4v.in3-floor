@@ -191,7 +191,7 @@ nav li a.active {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1450px;
+  height: 1500px;
 }
 
 .blurry-background {
@@ -217,7 +217,7 @@ nav li a.active {
 }
 
 .textpagina3 {
-  margin-left: 500px;
+  margin-left: 900px;
   width: 450px; 
   color: white;
   height: 1200px;
@@ -238,8 +238,7 @@ nav li a.active {
 }
 
 .plaatjehome2 {
-  width: 275px;
-  margin-left: 600px;
+  width: 1000px;
   border: 1px solid white;
   float: left;
   padding: 5px;
@@ -269,10 +268,19 @@ nav li a.active {
 
 }
 
-.center-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+div.gallery {
+  margin-right: 250px;
+  border: 1px solid white;
   float: left;
+  width: 400px
 }
 
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  color: white;
+  text-align: center;
+}

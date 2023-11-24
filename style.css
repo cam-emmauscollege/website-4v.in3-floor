@@ -140,12 +140,13 @@ nav li a.active {
 }
 
 
-#hfdpagina {
+.hfdpagina {
   background-image: url("afbeeldingen/cinema-cool.jpeg") ;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height: 1500px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .geschiedenis-plaatje {
@@ -153,8 +154,13 @@ nav li a.active {
   width: 375px;
   padding-right:10px;
   margin-left: 690px;
+}
 
-
+.geschiedenis-plaatje2 {
+  float: left;
+  width: 375px;
+  padding-right:10px;
+  margin-left: 500px;
 }
 
 .home-plaatje {
@@ -174,7 +180,7 @@ nav li a.active {
   margin-left: 850px;
   width: 575px; 
   color: white;
-  height: 1200px;
+  height: 1500px;
 }
 
 #pagina2 {
@@ -183,15 +189,15 @@ nav li a.active {
   background-repeat: no-repeat;
   background-size: cover;
   height: 1700px;
-  
 }
+
 
 #pagina3 { 
   background-image: url("afbeeldingen/lalaland.jpeg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1500px;
+  height: 2000px;
 }
 
 .blurry-background {
@@ -220,14 +226,18 @@ nav li a.active {
   margin-left: 900px;
   width: 450px; 
   color: white;
-  height: 1200px;
+  height: 2000px;
 }
 
 .actie-plaatje {
   width: 300px;
   padding-right:10px;
-  margin-left: 85px;
+  margin-left: 200px;
   border: 1px solid white;
+}
+
+.pagina3tekst {
+  
 }
 
 .soorten-films {
@@ -269,18 +279,20 @@ nav li a.active {
 }
 
 div.gallery {
-  margin-right: 250px;
-  border: 1px solid white;
+  margin-left: 225px;
+
   float: left;
-  width: 400px
+  width: 350px;
+  text-align: center;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
+  border: 1px solid white;
 }
 
-div.desc {
+.desc {
   color: white;
   text-align: center;
 }

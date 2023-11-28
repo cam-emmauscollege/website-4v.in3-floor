@@ -223,22 +223,19 @@ nav li a.active {
 }
 
 .textpagina3 {
-  margin-left: 900px;
   width: 450px; 
   color: white;
   height: 2000px;
+  margin-left: 750px;
 }
 
 .actie-plaatje {
   width: 300px;
-  padding-right:10px;
-  margin-left: 200px;
   border: 1px solid white;
+  float: right;
+  margin-right: 700px;
 }
 
-.pagina3tekst {
-  
-}
 
 .soorten-films {
   margin-left: 500px;
@@ -280,7 +277,6 @@ nav li a.active {
 
 div.gallery {
   margin-left: 225px;
-
   float: left;
   width: 350px;
   text-align: center;
@@ -296,3 +292,4 @@ div.gallery img {
   color: white;
   text-align: center;
 }
+

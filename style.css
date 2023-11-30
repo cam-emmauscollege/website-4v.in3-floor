@@ -222,20 +222,35 @@ nav li a.active {
   height: 1450px;
 }
 
+#pagina5 {
+  background-image: url("afbeeldingen/olaf\ en\ sven.jpeg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1450px;
+}
+
 .textpagina3 {
-  width: 450px; 
+  width: 700px; 
   color: white;
   height: 2000px;
   margin-left: 750px;
 }
 
 .actie-plaatje {
+  width: 250px;
+  border: 1px solid white;
+  float: right;
+  margin: 10px;
+  margin-top: 8px;
+}
+
+.rom-plaatje {
   width: 300px;
   border: 1px solid white;
   float: right;
-  margin-right: 700px;
+  
 }
-
 
 .soorten-films {
   margin-left: 500px;
@@ -276,7 +291,7 @@ nav li a.active {
 }
 
 div.gallery {
-  margin-left: 225px;
+  margin-left: 150px;
   float: left;
   width: 350px;
   text-align: center;
